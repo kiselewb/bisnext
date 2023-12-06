@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "PlusJakartaSans-Bold";
+  src: url("../fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Bold.woff") format("woff"),
+    url("../fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlusJakartaSans-SemiBold";
+  src: url("../fonts/PlusJakartaSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-SemiBold.woff") format("woff"),
+    url("../fonts/PlusJakartaSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlusJakartaSans-Medium";
+  src: url("../fonts/PlusJakartaSans-Medium.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Medium.woff") format("woff"),
+    url("../fonts/PlusJakartaSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PlusJakartaSans-MediumItalic";
+  src: url("../fonts/PlusJakartaSans-MediumItalic.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-MediumItalic.woff") format("woff"),
+    url("../fonts/PlusJakartaSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PlusJakartaSans-Regular";
+  src: url("../fonts/PlusJakartaSans-Regular.woff2") format("woff2"),
+    url("../fonts/PlusJakartaSans-Regular.woff") format("woff"),
+    url("../fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+    url("../fonts/Poppins-Bold.woff") format("woff"),
+    url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("../fonts/Poppins-SemiBold.woff") format("woff"),
+    url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/Poppins-Medium.woff") format("woff"),
+    url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}

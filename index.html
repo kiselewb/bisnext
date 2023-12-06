@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BisNext</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-content">
+          <div class="header-menu">
+            <div class="header-menu__logo">
+              <a href="./index.html" class="header-menu__logo-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="209"
+                  height="44"
+                  viewBox="0 0 209 44"
+                  fill="none"
+                >
+                  <path
+                    d="M163.744 12.1415L160.539 16.0103L163.8 19.8237C163.8 19.8237 174.052 8.30041 174.052 7.80301H170.487H167.309L163.744 12.1415Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M160.539 26.4559L163.689 30.3247L166.895 34.7461H174.19L163.855 22.7254L160.539 26.4559Z"
+                    fill="white"
+                  />
+                  <circle cx="159.503" cy="5.5234" r="2.6943" fill="white" />
+                  <path
+                    d="M144.373 2L159.503 21.0674C152.947 29.2421 149.271 33.8253 142.715 42"
+                    stroke="#FF7425"
+                    stroke-width="5.02736"
+                  />
+                  <rect
+                    x="120.746"
+                    y="18.9949"
+                    width="24.0415"
+                    height="4.55959"
+                    fill="#FF7425"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M49.5955 25.7099H43.9997C43.9444 26.4008 44.0549 27.1745 44.3313 28.0312C44.6353 28.8878 45.1327 29.7445 45.8235 30.6011C46.5144 31.4578 47.4125 32.2453 48.5178 32.9638C49.6232 33.6823 50.9358 34.2626 52.4556 34.7047C53.9755 35.1192 55.7302 35.3265 57.7199 35.3265C60.5109 35.3265 62.7769 34.9949 64.5178 34.3317C66.2864 33.6685 67.5852 32.7427 68.4142 31.5545C69.2708 30.3386 69.6992 28.9154 69.6992 27.285C69.6992 25.9586 69.4505 24.8394 68.953 23.9275C68.4556 23.0156 67.7372 22.2695 66.7976 21.6892C65.8857 21.0812 64.7803 20.5977 63.4815 20.2384C62.2104 19.8515 60.7872 19.5476 59.2121 19.3265C57.5265 19.0778 56.1171 18.8291 54.9841 18.5804C53.8512 18.3317 52.953 18.0692 52.2898 17.7928C51.6266 17.5165 51.1568 17.1987 50.8805 16.8394C50.6042 16.4526 50.466 16.0104 50.466 15.513C50.466 14.2419 51.0325 13.3438 52.1655 12.8187C53.3261 12.2937 54.7907 12.0312 56.5593 12.0312C58.466 12.0312 60.0411 12.3904 61.2847 13.1089C62.5558 13.8274 63.2467 15.0018 63.3572 16.6322H68.7458C68.8011 13.7583 67.7786 11.5061 65.6784 9.87572C63.6059 8.21769 60.6353 7.38867 56.7665 7.38867C54.1966 7.38867 52.0273 7.72028 50.2587 8.38349C48.4902 9.0467 47.1499 9.97244 46.238 11.1607C45.3537 12.3489 44.9116 13.7306 44.9116 15.3058C44.9116 16.5769 45.2017 17.6823 45.7821 18.6218C46.39 19.5338 47.2052 20.3075 48.2277 20.9431C49.2777 21.5787 50.4798 22.1037 51.8339 22.5182C53.1879 22.9051 54.6249 23.2091 56.1448 23.4301C58.0791 23.7065 59.6404 23.9828 60.8287 24.2591C62.0169 24.5078 62.8874 24.8394 63.4401 25.254C63.9928 25.6408 64.2691 26.2073 64.2691 26.9534C64.2691 27.7272 64.048 28.3904 63.6059 28.9431C63.1638 29.4958 62.4867 29.9241 61.5748 30.2281C60.6629 30.532 59.5023 30.684 58.0929 30.684C56.5454 30.684 55.1499 30.4768 53.9064 30.0622C52.6629 29.6201 51.6543 29.026 50.8805 28.2799C50.1344 27.5061 49.7061 26.6495 49.5955 25.7099ZM0 23.718V19.2831H5.51286V12.4866L0 12.4866V7.92753H15.4611C19.0535 7.92753 21.7755 8.53548 23.6269 9.75137C25.506 10.9396 26.4456 12.722 26.4456 15.0985C26.4456 16.6184 26.0725 17.8205 25.3264 18.7047C24.5803 19.5614 23.5164 20.197 22.1347 20.6115C21.3143 20.8626 20.4026 21.058 19.3996 21.1975C20.0571 21.2463 20.6924 21.3135 21.3057 21.399C22.5216 21.5648 23.5855 21.8688 24.4974 22.311C25.4093 22.7531 26.1278 23.3749 26.6529 24.1762C27.1779 24.95 27.4404 25.9724 27.4404 27.2436C27.4404 28.9016 26.9983 30.2833 26.114 31.3887C25.2297 32.4664 24 33.2816 22.4249 33.8343C20.8497 34.3869 19.0259 34.6909 16.9534 34.7462H0V30.1866H5.51286V23.718H0ZM5.51295 30.1866H16.3731C18.114 30.1866 19.4542 29.9103 20.3938 29.3576C21.3333 28.7773 21.8031 27.8654 21.8031 26.6218C21.8031 25.7099 21.5268 25.0467 20.9741 24.6322C20.4214 24.2177 19.6891 23.969 18.7772 23.8861C17.8653 23.7755 16.8843 23.7203 15.8342 23.7203H5.51295V30.1866ZM5.51295 19.285H15.2539C16.9948 19.285 18.3351 19.0363 19.2746 18.5389C20.2142 18.0139 20.6839 17.1296 20.6839 15.8861C20.6839 14.6426 20.2142 13.7721 19.2746 13.2747C18.3351 12.7496 17.0915 12.4871 15.544 12.4871H5.51295V19.285ZM33.1305 7.92753H38.6435V34.7462H33.1305V7.92753ZM100.014 7.92753V27.5604L80.0758 7.92753H74.5628V34.7462H80.0758V15.2658L100.014 34.7462H105.527V7.92753H100.014ZM117.438 30.1451V23.5545L117.43 19.2021L117.438 19.2021V12.5286H138.081V7.92753H111.925V34.7462H138.122V30.1451H117.438ZM179.754 7.92753H208.023V12.5286H196.665V34.7462H191.153V12.5286H179.754V7.92753Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <nav class="header-menu__navigation">
+              <a href="#" class="header-menu__navigation-link"> Home </a>
+              <a href="#" class="header-menu__navigation-link"> Pages </a>
+              <a href="#" class="header-menu__navigation-link"> Blog </a>
+              <a href="#" class="header-menu__navigation-link"> Portfolio </a>
+              <a href="#" class="header-menu__navigation-link"> Shop </a>
+              <a href="#" class="header-menu__navigation-link"> Contact </a>
+            </nav>
+            <div class="header-menu__burger">
+              <span class="header-menu__burger-line header-menu__burger-line--up"></span>
+              <span class="header-menu__burger-line header-menu__burger-line--middle"></span>
+              <span class="header-menu__burger-line header-menu__burger-line--down"></span>
+            </div>
+          </div>
+          <div class="header-text">
+            <h1 class="header-text__title">Business Solution by Digital</h1>
+            <p class="header-text__description text-decor">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+            <h2 class="header-text__subtitle">Agency</h2>
+          </div>
+          <div class="header-media">
+            <div class="header-media__slider-block">
+              <div class="swiper header-media__slider">
+                <div class="swiper-wrapper header-media__slider-wrapper">
+                  <div class="swiper-slide header-media__slide">
+                    <img
+                      src="images/slider/slide.png"
+                      alt="Slide 1"
+                      class="header-media__slide-image"
+                    />
+                  </div>
+                  <div class="swiper-slide header-media__slide">
+                    <img
+                      src="images/slider/slide.png"
+                      alt="Slide 2"
+                      class="header-media__slide-image"
+                    />
+                  </div>
+                  <div class="swiper-slide header-media__slide">
+                    <img
+                      src="images/slider/slide.png"
+                      alt="Slide 3"
+                      class="header-media__slide-image"
+                    />
+                  </div>
+                </div>
+
+                <div class="swiper-scrollbar header-media__scrollbar"></div>
+                <div class="swiper-pagination header-media__pagination"></div>
+              </div>
+            </div>
+            <div class="header-media__reference">
+              <a href="#" class="header-media__link main-link">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="partners">
+      <div class="wrapper">
+        <div class="partners-content">
+          <p class="partners-title text-decor">
+            Over 2K+ software business growing with our business
+          </p>
+          <div class="partners-list">
+            <img
+              src="images/partners/one.png"
+              alt="One"
+              class="partners-list__item"
+            />
+            <img
+              src="images/partners/two.png"
+              alt="Two"
+              class="partners-list__item"
+            />
+            <img
+              src="images/partners/three.png"
+              alt="Three"
+              class="partners-list__item"
+            />
+            <img
+              src="images/partners/four.png"
+              alt="Four"
+              class="partners-list__item"
+            />
+            <img
+              src="images/partners/five.png"
+              alt="Five"
+              class="partners-list__item"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="wrapper">
+        <div class="features-content">
+          <div class="features-text">
+            <div class="features-text__headers">
+              <h2 class="features-text__subtitle section-subtitle">Features</h2>
+              <h3 class="features-text__title section-title">
+                Follow These Steps to Expand Your Business
+              </h3>
+            </div>
+            <div class="features-text__content">
+              <p class="features-text__description section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </p>
+              <a href="#" class="features-text__link main-link"
+                >View all features</a
+              >
+            </div>
+          </div>
+          <div class="features-media">
+            <div class="features-media__block">
+              <img
+                src="images/features/digital-agency.png"
+                alt="Digital Agency"
+                class="features-media__image"
+              />
+              <p class="features-media__title">Digital Agency</p>
+            </div>
+            <div class="features-media__block">
+              <img
+                src="images/features/web-development.png"
+                alt="Web Development"
+                class="features-media__image"
+              />
+              <p class="features-media__title">Web Development</p>
+            </div>
+            <div class="features-media__block">
+              <img
+                src="images/features/custom-solutions.png"
+                alt="Custom Solutions"
+                class="features-media__image"
+              />
+              <p class="features-media__title">Custom Solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="wrapper">
+        <div class="about-content">
+          <div class="about-media">
+            <img
+              src="images/about/background-image.png"
+              alt="About background"
+              class="about-media__background"
+            />
+            <div class="about-media__video">
+              <img
+                src="images/about/video-background.jpg"
+                alt="Video background"
+                class="about-media__video-background"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="100"
+                viewBox="0 0 100 100"
+                fill="none"
+                class="about-media__video-icon"
+              >
+                <circle cx="50" cy="50" r="50" fill="#FF7425" />
+                <path
+                  d="M60.8764 49.1891C61.4295 49.5883 61.4295 50.4117 60.8764 50.8109L45.5852 61.8464C44.9238 62.3237 44 61.8511 44 61.0355L44 38.9645C44 38.1489 44.9238 37.6763 45.5852 38.1536L60.8764 49.1891Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="about-text">
+            <h2 class="about-text__subtitle section-subtitle">About us</h2>
+            <h3 class="about-text__title section-title">
+              We Are Creative Digital Marketing Agency
+            </h3>
+            <p class="about-text__description section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <div class="about-text__list">
+              <div class="about-text__list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  class="about-text__list-icon"
+                >
+                  <path
+                    d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z"
+                    fill="#FF7425"
+                  />
+                </svg>
+                <p class="about-text__list-text">
+                  Sed ut perspiciatis unde omnis iste natus erro
+                </p>
+              </div>
+              <div class="about-text__list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  class="about-text__list-icon"
+                >
+                  <path
+                    d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z"
+                    fill="#FF7425"
+                  />
+                </svg>
+                <p class="about-text__list-text">
+                  Totam rem aperiam, eaque ipsa quae ab illo
+                </p>
+              </div>
+              <div class="about-text__list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  class="about-text__list-icon"
+                >
+                  <path
+                    d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z"
+                    fill="#FF7425"
+                  />
+                </svg>
+                <p class="about-text__list-text">
+                  But I must explain to you how all this mistaken idea
+                </p>
+              </div>
+              <div class="about-text__list-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  class="about-text__list-icon"
+                >
+                  <path
+                    d="M10 20C4.477 20 0 15.523 0 10C0 4.477 4.477 0 10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20ZM9.003 14L16.073 6.929L14.659 5.515L9.003 11.172L6.174 8.343L4.76 9.757L9.003 14Z"
+                    fill="#FF7425"
+                  />
+                </svg>
+                <p class="about-text__list-text">
+                  At vero eos et accusamus et iusto odio dignissimos
+                </p>
+              </div>
+            </div>
+            <div class="about-text__block">
+              <div class="about-text__block-item">
+                <p class="about-text__block-percent">120%</p>
+                <p class="about-text__block-text">Increase in sales</p>
+              </div>
+              <div class="about-text__block-item">
+                <p class="about-text__block-percent">250%</p>
+                <p class="about-text__block-text">Customer Engagement</p>
+              </div>
+              <div class="about-text__block-item">
+                <p class="about-text__block-percent">100%</p>
+                <p class="about-text__block-text">Customer Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="value">
+      <div class="wrapper">
+        <div class="value-content">
+          <div class="value-stat">
+            <div class="value-stat__list">
+              <div class="value-stat__list-item">
+                <p class="value-stat__list-number">100+</p>
+                <div class="value-stat__list-header">
+                  <p class="value-stat__list-title">Project Complete</p>
+                  <p class="value-stat__list-subtitle section-text">
+                    On the other hand, we denounce with righteous indignation
+                    and dislike men who
+                  </p>
+                </div>
+              </div>
+              <div class="value-stat__list-item">
+                <p class="value-stat__list-number">3290</p>
+                <div class="value-stat__list-header">
+                  <p class="value-stat__list-title">Creative Ideas</p>
+                  <p class="value-stat__list-subtitle section-text">
+                    On the other hand, we denounce with righteous indignation
+                    and dislike men who
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="value-text">
+            <h2 class="value-text__subtitle section-subtitle">Our value</h2>
+            <h3 class="value-text__title section-title">
+              Successful Experience Project Matters
+            </h3>
+            <p class="value-text__description section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+            <div class="value-text__references">
+              <a href="#" class="value-text__references-link main-link"
+                >View all value</a
+              >
+              <a href="#" class="value-text__references-video main-link"
+                >Watch video</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="wrapper">
+        <div class="portfolio-content">
+          <div class="portfolio-text">
+            <h2 class="portfolio-text__subtitle section-subtitle">Portfolio</h2>
+            <h3 class="portfolio-text__title section-title">
+              We Work to Craft Solid Products and Services For You
+            </h3>
+            <p class="portfolio-text__description section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="portfolio-text__references-link main-link"
+              >View all portfolio</a
+            >
+          </div>
+          <div class="portfolio-spoiler">
+            <div class="portfolio-spoiler__item">
+              <div class="portfolio-spoiler__item-header">
+                <p class="portfolio-spoiler__item-number">
+                  01<span class="portfolio-spoiler__item-subnumber">/</span>
+                </p>
+                <h3 class="portfolio-spoiler__item-title">Digital Agency</h3>
+                <h4 class="portfolio-spoiler__item-subtitle">
+                  / Brand - Consultation
+                </h4>
+                <span class="portfolio-spoiler__item-icon"></span>
+              </div>
+              <div class="portfolio-spoiler__item-body">
+                <p class="portfolio-spoiler__item-text">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio-spoiler__item">
+              <div class="portfolio-spoiler__item-header">
+                <p class="portfolio-spoiler__item-number">
+                  02<span class="portfolio-spoiler__item-subnumber">/</span>
+                </p>
+                <h3 class="portfolio-spoiler__item-title">Business Idea</h3>
+                <h4 class="portfolio-spoiler__item-subtitle">
+                  / Consultation - Idea
+                </h4>
+                <span class="portfolio-spoiler__item-icon"></span>
+              </div>
+              <div class="portfolio-spoiler__item-body">
+                <p class="portfolio-spoiler__item-text">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio-spoiler__item">
+              <div class="portfolio-spoiler__item-header">
+                <p class="portfolio-spoiler__item-number">
+                  03<span class="portfolio-spoiler__item-subnumber">/</span>
+                </p>
+                <h3 class="portfolio-spoiler__item-title">
+                  Marketing Analysis
+                </h3>
+                <h4 class="portfolio-spoiler__item-subtitle">
+                  / Design - Brand
+                </h4>
+                <span class="portfolio-spoiler__item-icon"></span>
+              </div>
+              <div class="portfolio-spoiler__item-body">
+                <p class="portfolio-spoiler__item-text">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio-spoiler__item">
+              <div class="portfolio-spoiler__item-header">
+                <p class="portfolio-spoiler__item-number">
+                  04<span class="portfolio-spoiler__item-subnumber">/</span>
+                </p>
+                <h3 class="portfolio-spoiler__item-title">Bisnext Business</h3>
+                <h4 class="portfolio-spoiler__item-subtitle">
+                  / Agency - Business
+                </h4>
+                <span class="portfolio-spoiler__item-icon"></span>
+              </div>
+              <div class="portfolio-spoiler__item-body">
+                <p class="portfolio-spoiler__item-text">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores et quas molestias excepturi sint occaecati cupiditate
+                  non provident.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="wrapper">
+        <div class="reviews-content">
+          <div class="reviews-background">
+            <img
+              src="images/reviews/background.png"
+              alt="Background reviews"
+              class="reviews-background__image"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="88"
+              height="88"
+              viewBox="0 0 88 88"
+              fill="none"
+              class="reviews-background__decor"
+            >
+              <path
+                d="M58.6667 0H29.3333C29.3333 16.1822 16.1822 29.3333 0 29.3333V58.6667C32.4133 58.6667 58.6667 32.4133 58.6667 0Z"
+                fill="#FF7425"
+              />
+              <path
+                d="M88 29.3334V58.6667C71.8178 58.6667 58.6667 71.8178 58.6667 88H29.3333C29.3333 55.5867 55.5867 29.3334 88 29.3334Z"
+                fill="#FF7425"
+              />
+            </svg>
+          </div>
+          <div class="reviews-slider__block">
+            <div class="swiper reviews-slider">
+              <div class="swiper-wrapper reviews-slider__wrapper">
+                <div class="swiper-slide reviews-slider__slide">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="30"
+                    viewBox="0 0 42 30"
+                    fill="none"
+                    class="reviews-slider__decor"
+                  >
+                    <path
+                      d="M41.3695 29.8283C41.5582 29.7303 41.7469 29.5422 41.8454 29.3461C42.0095 29.0273 42.0095 28.9128 41.9931 20.812C41.9684 12.6621 41.9684 12.5967 41.7961 12.376C41.7059 12.2534 41.5254 12.0736 41.4023 11.9837C41.1808 11.8202 41.0659 11.812 37.6608 11.7875L34.1409 11.7629L34.1163 6.31063C34.0917 0.866486 34.0917 0.858312 33.9112 0.572208C33.5583 0.00817513 33.5255 7.40862e-07 30.8589 9.73985e-07L28.4713 1.18272e-06L28.1513 0.294279C27.8313 0.580383 27.7985 0.662127 25.7636 6.7357L23.7124 12.891L23.7288 21.0327C23.7534 29.109 23.7534 29.1744 23.9257 29.3951C24.016 29.5177 24.1965 29.6976 24.3196 29.7875C24.5411 29.9591 24.6067 29.9591 32.8035 29.9755C40.9018 29.9918 41.0741 29.9918 41.3695 29.8283Z"
+                      fill="#FF7425"
+                    />
+                    <path
+                      d="M17.5176 29.8858C17.854 29.7386 18.1986 29.3217 18.2561 28.9948C18.2807 28.8476 18.2889 25.1038 18.2807 20.6651C18.2561 12.6623 18.2561 12.5969 18.0838 12.3762C17.9935 12.2536 17.813 12.0738 17.6899 11.9839C17.4684 11.8204 17.3535 11.8122 13.8992 11.7877L10.3383 11.7632L10.3219 6.21274L10.2972 0.654159L9.98545 0.351707L9.68187 0.0410802L7.2614 0.0165572C4.57838 -0.00796569 4.49633 0.00838309 4.18454 0.515195C4.09428 0.662334 3.11789 3.4825 2.01022 6.78495L1.11827e-06 12.8013L1.82718e-06 20.9103C2.52394e-06 28.8803 2.53681e-06 29.0275 0.164103 29.3463C0.270768 29.5588 0.443072 29.7305 0.656401 29.8367C0.976395 30.0002 1.11588 30.0002 9.12393 30.0002C15.7125 29.992 17.3207 29.9757 17.5176 29.8858Z"
+                      fill="#FF7425"
+                    />
+                  </svg>
+                  <p class="reviews-slider__text">
+                    "But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain was born and I will
+                    give you a complete account of the system, and expound the
+                    actual teachings of the great explorer of the truth human
+                    happiness. No one rejects."
+                  </p>
+                  <div class="reviews-slider__author">
+                    <img
+                      src="images/reviews/slider/customer.png"
+                      alt="Review's author"
+                      class="reviews-slider__author-image"
+                    />
+                    <div class="reviews-slider__author-info">
+                      <p class="reviews-slider__author-name">Chester Feil</p>
+                      <div class="reviews-slider__author-role">Customer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews-slider__slide">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="30"
+                    viewBox="0 0 42 30"
+                    fill="none"
+                    class="reviews-slider__decor"
+                  >
+                    <path
+                      d="M41.3695 29.8283C41.5582 29.7303 41.7469 29.5422 41.8454 29.3461C42.0095 29.0273 42.0095 28.9128 41.9931 20.812C41.9684 12.6621 41.9684 12.5967 41.7961 12.376C41.7059 12.2534 41.5254 12.0736 41.4023 11.9837C41.1808 11.8202 41.0659 11.812 37.6608 11.7875L34.1409 11.7629L34.1163 6.31063C34.0917 0.866486 34.0917 0.858312 33.9112 0.572208C33.5583 0.00817513 33.5255 7.40862e-07 30.8589 9.73985e-07L28.4713 1.18272e-06L28.1513 0.294279C27.8313 0.580383 27.7985 0.662127 25.7636 6.7357L23.7124 12.891L23.7288 21.0327C23.7534 29.109 23.7534 29.1744 23.9257 29.3951C24.016 29.5177 24.1965 29.6976 24.3196 29.7875C24.5411 29.9591 24.6067 29.9591 32.8035 29.9755C40.9018 29.9918 41.0741 29.9918 41.3695 29.8283Z"
+                      fill="#FF7425"
+                    />
+                    <path
+                      d="M17.5176 29.8858C17.854 29.7386 18.1986 29.3217 18.2561 28.9948C18.2807 28.8476 18.2889 25.1038 18.2807 20.6651C18.2561 12.6623 18.2561 12.5969 18.0838 12.3762C17.9935 12.2536 17.813 12.0738 17.6899 11.9839C17.4684 11.8204 17.3535 11.8122 13.8992 11.7877L10.3383 11.7632L10.3219 6.21274L10.2972 0.654159L9.98545 0.351707L9.68187 0.0410802L7.2614 0.0165572C4.57838 -0.00796569 4.49633 0.00838309 4.18454 0.515195C4.09428 0.662334 3.11789 3.4825 2.01022 6.78495L1.11827e-06 12.8013L1.82718e-06 20.9103C2.52394e-06 28.8803 2.53681e-06 29.0275 0.164103 29.3463C0.270768 29.5588 0.443072 29.7305 0.656401 29.8367C0.976395 30.0002 1.11588 30.0002 9.12393 30.0002C15.7125 29.992 17.3207 29.9757 17.5176 29.8858Z"
+                      fill="#FF7425"
+                    />
+                  </svg>
+                  <p class="reviews-slider__text">
+                    "But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain was born and I will
+                    give you a complete account of the system, and expound the
+                    actual teachings of the great explorer of the truth human
+                    happiness. No one rejects."
+                  </p>
+                  <div class="reviews-slider__author">
+                    <img
+                      src="images/reviews/slider/customer.png"
+                      alt="Review's author"
+                      class="reviews-slider__author-image"
+                    />
+                    <div class="reviews-slider__author-info">
+                      <p class="reviews-slider__author-name">Chester Feil</p>
+                      <div class="reviews-slider__author-role">Customer</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide reviews-slider__slide">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="30"
+                    viewBox="0 0 42 30"
+                    fill="none"
+                    class="reviews-slider__decor"
+                  >
+                    <path
+                      d="M41.3695 29.8283C41.5582 29.7303 41.7469 29.5422 41.8454 29.3461C42.0095 29.0273 42.0095 28.9128 41.9931 20.812C41.9684 12.6621 41.9684 12.5967 41.7961 12.376C41.7059 12.2534 41.5254 12.0736 41.4023 11.9837C41.1808 11.8202 41.0659 11.812 37.6608 11.7875L34.1409 11.7629L34.1163 6.31063C34.0917 0.866486 34.0917 0.858312 33.9112 0.572208C33.5583 0.00817513 33.5255 7.40862e-07 30.8589 9.73985e-07L28.4713 1.18272e-06L28.1513 0.294279C27.8313 0.580383 27.7985 0.662127 25.7636 6.7357L23.7124 12.891L23.7288 21.0327C23.7534 29.109 23.7534 29.1744 23.9257 29.3951C24.016 29.5177 24.1965 29.6976 24.3196 29.7875C24.5411 29.9591 24.6067 29.9591 32.8035 29.9755C40.9018 29.9918 41.0741 29.9918 41.3695 29.8283Z"
+                      fill="#FF7425"
+                    />
+                    <path
+                      d="M17.5176 29.8858C17.854 29.7386 18.1986 29.3217 18.2561 28.9948C18.2807 28.8476 18.2889 25.1038 18.2807 20.6651C18.2561 12.6623 18.2561 12.5969 18.0838 12.3762C17.9935 12.2536 17.813 12.0738 17.6899 11.9839C17.4684 11.8204 17.3535 11.8122 13.8992 11.7877L10.3383 11.7632L10.3219 6.21274L10.2972 0.654159L9.98545 0.351707L9.68187 0.0410802L7.2614 0.0165572C4.57838 -0.00796569 4.49633 0.00838309 4.18454 0.515195C4.09428 0.662334 3.11789 3.4825 2.01022 6.78495L1.11827e-06 12.8013L1.82718e-06 20.9103C2.52394e-06 28.8803 2.53681e-06 29.0275 0.164103 29.3463C0.270768 29.5588 0.443072 29.7305 0.656401 29.8367C0.976395 30.0002 1.11588 30.0002 9.12393 30.0002C15.7125 29.992 17.3207 29.9757 17.5176 29.8858Z"
+                      fill="#FF7425"
+                    />
+                  </svg>
+                  <p class="reviews-slider__text">
+                    "But I must explain to you how all this mistaken idea of
+                    denouncing pleasure and praising pain was born and I will
+                    give you a complete account of the system, and expound the
+                    actual teachings of the great explorer of the truth human
+                    happiness. No one rejects."
+                  </p>
+                  <div class="reviews-slider__author">
+                    <img
+                      src="images/reviews/slider/customer.png"
+                      alt="Review's author"
+                      class="reviews-slider__author-image"
+                    />
+                    <div class="reviews-slider__author-info">
+                      <p class="reviews-slider__author-name">Chester Feil</p>
+                      <div class="reviews-slider__author-role">Customer</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="swiper-button-prev reviews-slider__button--prev"
+              ></div>
+              <div
+                class="swiper-button-next reviews-slider__button--next"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="wrapper">
+        <div class="offer-content">
+          <h4 class="offer__title">Let’s Make Something Great Together!</h4>
+          <a href="#" class="offer__link main-link">
+            Contact with us
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="27"
+              height="26"
+              viewBox="0 0 27 26"
+              fill="none"
+              class="offer__link-decor"
+            >
+              <path
+                d="M6.19355 19.9485C5.86812 19.6231 5.841 19.1123 6.11219 18.756L6.19355 18.6629L19.0499 5.80653C19.4049 5.45151 19.9805 5.45151 20.3355 5.80653C20.6609 6.13196 20.6881 6.64274 20.4169 6.99907L20.3355 7.09216L7.47918 19.9485C7.12416 20.3035 6.54857 20.3035 6.19355 19.9485Z"
+                fill="white"
+                stroke="white"
+              />
+              <path
+                d="M9.34601 7.38012C8.84394 7.3812 8.43605 6.97507 8.43497 6.473C8.43399 6.01658 8.76955 5.63799 9.20778 5.57211L9.34209 5.56197L19.6906 5.53968C20.1484 5.5387 20.5276 5.87619 20.592 6.3159L20.6016 6.45064L20.5802 16.8C20.5792 17.3021 20.1713 17.7082 19.6692 17.7072C19.2128 17.7062 18.8356 17.3691 18.7716 16.9306L18.762 16.7962L18.781 7.35976L9.34601 7.38012Z"
+                fill="white"
+                stroke="white"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="qna">
+      <div class="wrapper">
+        <div class="qna-content">
+          <div class="qna-spoiler">
+            <div class="qna-spoiler__item">
+              <div class="qna-spoiler__answer">
+                <h4 class="qna-spoiler__answer-text">
+                  How can we help your business?
+                </h4>
+                <span class="qna-spoiler__answer-icon"></span>
+              </div>
+              <div class="qna-spoiler__question">
+                <h5 class="qna-spoiler__question-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+              </div>
+            </div>
+            <div class="qna-spoiler__item">
+              <div class="qna-spoiler__answer">
+                <h4 class="qna-spoiler__answer-text">
+                  What are the advantages of Bisnext?
+                </h4>
+                <span class="qna-spoiler__answer-icon"></span>
+              </div>
+              <div class="qna-spoiler__question">
+                <h5 class="qna-spoiler__question-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+              </div>
+            </div>
+            <div class="qna-spoiler__item">
+              <div class="qna-spoiler__answer">
+                <h4 class="qna-spoiler__answer-text">
+                  Let’s find an office near you?
+                </h4>
+                <span class="qna-spoiler__answer-icon"></span>
+              </div>
+              <div class="qna-spoiler__question">
+                <h5 class="qna-spoiler__question-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+              </div>
+            </div>
+            <div class="qna-spoiler__item">
+              <div class="qna-spoiler__answer">
+                <h4 class="qna-spoiler__answer-text">
+                  How IT consultancy experts work?
+                </h4>
+                <span class="qna-spoiler__answer-icon"></span>
+              </div>
+              <div class="qna-spoiler__question">
+                <h5 class="qna-spoiler__question-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="qna-text">
+            <h2 class="qna-text__subtitle section-subtitle">Q & A</h2>
+            <h3 class="qna-text__title section-title">
+              Be Kind to Your Mind Question & Answer
+            </h3>
+            <p class="qna-text__description section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="qna-text__references-link main-link"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="wrapper">
+        <div class="blog-content">
+          <div class="blog-text">
+            <div class="blog-text__headers">
+              <h2 class="blog-text__subtitle section-subtitle">Latest blog</h2>
+              <h3 class="blog-text__title section-title">
+                Check Some of Latest News & Articles
+              </h3>
+            </div>
+            <div class="blog-text__content">
+              <p class="blog-text__description section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore.
+              </p>
+              <a href="#" class="blog-text__link main-link">View all blog</a>
+            </div>
+          </div>
+          <div class="blog-list">
+            <div class="blog-article">
+              <img
+                src="images/blog/article-one.png"
+                alt="Blog's one image"
+                class="blog-article__image"
+              />
+              <div class="blog-article__text">
+                <p class="blog-article__metainfo">
+                  <span class="blog-article__metainfo-category">UI Design</span>
+                  |
+                  <span class="blog-article__metainfo-date">15 Dec 2022</span>
+                </p>
+                <h4 class="blog-article__title">
+                  What is Digital Agency Marketing
+                </h4>
+                <p class="blog-article__description">
+                  But I must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you a complete account of the system
+                </p>
+                <a href="#" class="blog-article__link main-link">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    class="blog-article__link-decor"
+                  >
+                    <path
+                      d="M11.8934 3.40815L3.40817 11.8934"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5.06272 3.42258C5.06272 3.42258 10.3298 1.84488 11.8922 3.40731C13.4558 4.97086 11.8787 10.2385 11.8787 10.2385"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="blog-article">
+              <img
+                src="images/blog/article-two.png"
+                alt="Blog's two image"
+                class="blog-article__image"
+              />
+              <div class="blog-article__text">
+                <p class="blog-article__metainfo">
+                  <span class="blog-article__metainfo-category">UI Design</span>
+                  |
+                  <span class="blog-article__metainfo-date">15 Dec 2022</span>
+                </p>
+                <h4 class="blog-article__title">
+                  What is Digital Agency Marketing
+                </h4>
+                <p class="blog-article__description">
+                  But I must explain to you how all this mistaken idea of
+                  denouncing pleasure and praising pain was born and I will give
+                  you a complete account of the system
+                </p>
+                <a href="#" class="blog-article__link main-link">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    class="blog-article__link-decor"
+                  >
+                    <path
+                      d="M11.8934 3.40815L3.40817 11.8934"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M5.06272 3.42258C5.06272 3.42258 10.3298 1.84488 11.8922 3.40731C13.4558 4.97086 11.8787 10.2385 11.8787 10.2385"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="footer-main">
+            <div class="footer-info">
+              <a href="./index.html" class="footer-info__logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="209"
+                  height="44"
+                  viewBox="0 0 209 44"
+                  fill="none"
+                >
+                  <path
+                    d="M163.744 12.1415L160.539 16.0103L163.8 19.8237C163.8 19.8237 174.052 8.30041 174.052 7.80301H170.487H167.309L163.744 12.1415Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M160.539 26.4559L163.689 30.3247L166.895 34.7461H174.19L163.855 22.7254L160.539 26.4559Z"
+                    fill="white"
+                  />
+                  <circle cx="159.503" cy="5.5234" r="2.6943" fill="white" />
+                  <path
+                    d="M144.373 2L159.503 21.0674C152.947 29.2421 149.271 33.8253 142.715 42"
+                    stroke="#FF7425"
+                    stroke-width="5.02736"
+                  />
+                  <rect
+                    x="120.746"
+                    y="18.9949"
+                    width="24.0415"
+                    height="4.55959"
+                    fill="#FF7425"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M49.5955 25.7099H43.9997C43.9444 26.4008 44.0549 27.1745 44.3313 28.0312C44.6353 28.8878 45.1327 29.7445 45.8235 30.6011C46.5144 31.4578 47.4125 32.2453 48.5178 32.9638C49.6232 33.6823 50.9358 34.2626 52.4556 34.7047C53.9755 35.1192 55.7302 35.3265 57.7199 35.3265C60.5109 35.3265 62.7769 34.9949 64.5178 34.3317C66.2864 33.6685 67.5852 32.7427 68.4142 31.5545C69.2708 30.3386 69.6992 28.9154 69.6992 27.285C69.6992 25.9586 69.4505 24.8394 68.953 23.9275C68.4556 23.0156 67.7372 22.2695 66.7976 21.6892C65.8857 21.0812 64.7803 20.5977 63.4815 20.2384C62.2104 19.8515 60.7872 19.5476 59.2121 19.3265C57.5265 19.0778 56.1171 18.8291 54.9841 18.5804C53.8512 18.3317 52.953 18.0692 52.2898 17.7928C51.6266 17.5165 51.1568 17.1987 50.8805 16.8394C50.6042 16.4526 50.466 16.0104 50.466 15.513C50.466 14.2419 51.0325 13.3438 52.1655 12.8187C53.3261 12.2937 54.7907 12.0312 56.5593 12.0312C58.466 12.0312 60.0411 12.3904 61.2847 13.1089C62.5558 13.8274 63.2467 15.0018 63.3572 16.6322H68.7458C68.8011 13.7583 67.7786 11.5061 65.6784 9.87572C63.6059 8.21769 60.6353 7.38867 56.7665 7.38867C54.1966 7.38867 52.0273 7.72028 50.2587 8.38349C48.4902 9.0467 47.1499 9.97244 46.238 11.1607C45.3537 12.3489 44.9116 13.7306 44.9116 15.3058C44.9116 16.5769 45.2017 17.6823 45.7821 18.6218C46.39 19.5338 47.2052 20.3075 48.2277 20.9431C49.2777 21.5787 50.4798 22.1037 51.8339 22.5182C53.1879 22.9051 54.6249 23.2091 56.1448 23.4301C58.0791 23.7065 59.6404 23.9828 60.8287 24.2591C62.0169 24.5078 62.8874 24.8394 63.4401 25.254C63.9928 25.6408 64.2691 26.2073 64.2691 26.9534C64.2691 27.7272 64.048 28.3904 63.6059 28.9431C63.1638 29.4958 62.4867 29.9241 61.5748 30.2281C60.6629 30.532 59.5023 30.684 58.0929 30.684C56.5454 30.684 55.1499 30.4768 53.9064 30.0622C52.6629 29.6201 51.6543 29.026 50.8805 28.2799C50.1344 27.5061 49.7061 26.6495 49.5955 25.7099ZM0 23.718V19.2831H5.51286V12.4866L0 12.4866V7.92753H15.4611C19.0535 7.92753 21.7755 8.53548 23.6269 9.75137C25.506 10.9396 26.4456 12.722 26.4456 15.0985C26.4456 16.6184 26.0725 17.8205 25.3264 18.7047C24.5803 19.5614 23.5164 20.197 22.1347 20.6115C21.3143 20.8626 20.4026 21.058 19.3996 21.1975C20.0571 21.2463 20.6924 21.3135 21.3057 21.399C22.5216 21.5648 23.5855 21.8688 24.4974 22.311C25.4093 22.7531 26.1278 23.3749 26.6529 24.1762C27.1779 24.95 27.4404 25.9724 27.4404 27.2436C27.4404 28.9016 26.9983 30.2833 26.114 31.3887C25.2297 32.4664 24 33.2816 22.4249 33.8343C20.8497 34.3869 19.0259 34.6909 16.9534 34.7462H0V30.1866H5.51286V23.718H0ZM5.51295 30.1866H16.3731C18.114 30.1866 19.4542 29.9103 20.3938 29.3576C21.3333 28.7773 21.8031 27.8654 21.8031 26.6218C21.8031 25.7099 21.5268 25.0467 20.9741 24.6322C20.4214 24.2177 19.6891 23.969 18.7772 23.8861C17.8653 23.7755 16.8843 23.7203 15.8342 23.7203H5.51295V30.1866ZM5.51295 19.285H15.2539C16.9948 19.285 18.3351 19.0363 19.2746 18.5389C20.2142 18.0139 20.6839 17.1296 20.6839 15.8861C20.6839 14.6426 20.2142 13.7721 19.2746 13.2747C18.3351 12.7496 17.0915 12.4871 15.544 12.4871H5.51295V19.285ZM33.1305 7.92753H38.6435V34.7462H33.1305V7.92753ZM100.014 7.92753V27.5604L80.0758 7.92753H74.5628V34.7462H80.0758V15.2658L100.014 34.7462H105.527V7.92753H100.014ZM117.438 30.1451V23.5545L117.43 19.2021L117.438 19.2021V12.5286H138.081V7.92753H111.925V34.7462H138.122V30.1451H117.438ZM179.754 7.92753H208.023V12.5286H196.665V34.7462H191.153V12.5286H179.754V7.92753Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <p class="footer-info__text">
+                Lorem ipsum dolor sit amet consecte tur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua tepo
+                the.
+              </p>
+              <a href="tel:+19730682300" class="footer-info__phone">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  class="footer-info__phone-decor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.70426 7.29835C9.22368 9.81707 9.79523 6.90319 11.3994 8.5062C12.9459 10.0523 13.8347 10.362 11.8753 12.3209C11.6299 12.5181 10.0705 14.8911 4.59028 9.41242C-0.890618 3.93305 1.481 2.37207 1.6783 2.1267C3.64244 0.162429 3.94686 1.05645 5.49336 2.60252C7.09749 4.20621 4.18484 4.77963 6.70426 7.29835Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                (973) 068 2300</a
+              >
+            </div>
+            <div class="footer-navigation">
+              <h5 class="footer-navigation__title">Quick links</h5>
+              <div class="footer-navigation__menu">
+                <a href="#" class="footer-navigation__menu-link">About Us</a>
+                <a href="#" class="footer-navigation__menu-link"
+                  >Pricing Table</a
+                >
+                <a href="#" class="footer-navigation__menu-link">Contact Us</a>
+                <a href="#" class="footer-navigation__menu-link"
+                  >Meet Our Team</a
+                >
+                <a href="#" class="footer-navigation__menu-link">Latest News</a>
+                <a href="#" class="footer-navigation__menu-link"
+                  >Case Studies</a
+                >
+                <a href="#" class="footer-navigation__menu-link">FAQ's</a>
+                <a href="#" class="footer-navigation__menu-link">Services</a>
+                <a href="#" class="footer-navigation__menu-link"
+                  >Customer Support</a
+                >
+              </div>
+            </div>
+            <div class="footer-social">
+              <a
+                href="#"
+                class="footer-social__link footer-social__link--facebook"
+                >Facebook</a
+              >
+              <a
+                href="#"
+                class="footer-social__link footer-social__link--twitter"
+                >Twitter</a
+              >
+              <a
+                href="#"
+                class="footer-social__link footer-social__link--dribbble"
+                >Dribbble</a
+              >
+              <a
+                href="#"
+                class="footer-social__link footer-social__link--Instagram"
+                >Instagram</a
+              >
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <p class="footer-copyright__title">
+              Copyright © 2023 BISNEXT. All Rights Reserved
+            </p>
+            <div class="footer-copyright__docs">
+              <a href="#" class="footer-copyright__docs-terms">Terms of Use</a>
+              <a href="#" class="footer-copyright__docs-policy"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
